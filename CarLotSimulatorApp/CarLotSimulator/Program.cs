@@ -52,9 +52,9 @@ namespace CarLotSimulator
             someOtherCar.MakeEngineNoise();
             someOtherCar.MakeHonkNoise();
 
-           
-            //*************BONUS X 2*************//
 
+            //*************BONUS X 2*************//
+            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
             foreach(var car in lot.CarList)
             { 
                 Console.WriteLine();

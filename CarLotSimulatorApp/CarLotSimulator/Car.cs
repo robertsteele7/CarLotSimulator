@@ -14,8 +14,8 @@ namespace CarLotSimulator
         public bool IsDriveable { get; set; } 
 
         public Car()
-        { 
-        
+        {
+            CarLot.numberOfCars++;
         }
         public Car(int year, string make, string model, string engineNoise, string honkNoise, bool IsDriveable = false)
         {
